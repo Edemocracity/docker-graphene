@@ -10,3 +10,7 @@ cmake . -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang -DCMAKE_BUILD_TYPE
 # Build and install
 ninja
 ninja install
+
+# Clean up source
+cd ..
+rm -rf graphene
